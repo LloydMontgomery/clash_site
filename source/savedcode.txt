@@ -1,0 +1,40 @@
+
+		<!-- Table project_admins -->
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<!-- Accordion Heading -->
+	    		<div class="panel-heading" id="headingOne">
+	    			<h4 class="panel-title">
+		        		<a data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+		          			project_admins
+		        		</a>
+	      			</h4>
+	    		</div>
+	    		<!-- Accordion Content -->
+	    		<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+					<div class="panel-body">
+						<div class="btn btn-primary emailaddress" data-toggle="popover">
+							emailaddress
+						</div>
+						<div class="btn btn-primary modified" data-toggle="popover">
+							modified
+						</div>
+						<div class="btn btn-primary modifiedby" data-toggle="popover">
+							modifiedby
+						</div>
+						<div class="btn btn-primary project_id" data-toggle="popover">
+							project_id
+						</div>
+						<div class="btn btn-primary title" data-toggle="popover">
+							title
+						</div>
+						<div class="btn btn-primary user_url" data-toggle="popover">
+							user_url
+						</div>
+						<div class="btn btn-primary userid" data-toggle="popover">
+							userid
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
