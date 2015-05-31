@@ -1,0 +1,17 @@
+@font-face{
+	font-family: "QuincyCF-Light";
+	src: url('./fonts/QuincyCF-Light-webfont.ttf');
+}
+@font-face{
+	font-family: "QuincyCF-Regular";
+	src: url('./fonts/QuincyCF-Regular-webfont.ttf');
+}
+@font-face{
+	font-family: "Supercell-magic";
+	src: url('./../fonts/Supercell-magic-webfont.ttf') format('truetype');
+}
+
+h1, .navbar, #navigation-buttons
+{
+    font-family: "Supercell-Magic";
+}
