@@ -1,4 +1,66 @@
+@font-face{
+	font-family: "QuincyCF-Light";
+	src: url('./fonts/QuincyCF-Light-webfont.ttf');
+}
+@font-face{
+	font-family: "QuincyCF-Regular";
+	src: url('./fonts/QuincyCF-Regular-webfont.ttf');
+}
+@font-face{
+	font-family: "Supercell-magic";
+	src: url('./../fonts/Supercell-magic-webfont.ttf') format('truetype');
+}
+
+
+
+.clan_name
+{
+	font-family: "Supercell-Magic";
+}
+
 .btn
 {
-	box-shadow: 0px 0px 3px #dadada;
+	box-shadow: 0px 0px 10px #dadada;
+
 }
+
+#navigation-buttons
+{
+	
+}
+
+#navigation-buttons .btn
+{
+	margin: 5px 0px 5px 0px;
+
+	width: 100%;
+}
+
+#gf-logo
+{
+	width: 80%;
+
+}
+
+#rules-main-container
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

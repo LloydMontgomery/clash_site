@@ -1,0 +1,27 @@
+#member-panel-main-container
+{
+	width: auto;
+	margin: 0 auto 0 auto;
+}
+
+.member-panel-container
+{
+	padding: 5px;
+
+	
+}
+
+.member-panel
+{
+
+	margin: 20px 0px 0px 0px;
+	
+
+	border: solid #dadada;
+	border-radius: 10px;
+
+	box-shadow: 0px 0px 3px #dadada;
+	padding-bottom: 5px;
+
+	
+}
