@@ -13,6 +13,11 @@
 .war-loss { color: red; }
 .war-tie  { color: grey; }
 
+.panel, .panel-heading
+{
+	border-radius: 20px !important;
+}
+
 .panel-default>.panel-heading
 {
 	background-color: white;
