@@ -20,7 +20,7 @@ h1, .navbar, #navigation-buttons
     font-family: "Supercell-Magic";
 }
 
-#clan-description, #rules-main-container, .member-panel, .panel-group, #help-tip
+#clan-description, .rules-container, .member-panel, .panel-group, #help-tip
 {
 	font-family: "QuincyCF-Black";
 }

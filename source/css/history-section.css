@@ -1,7 +1,8 @@
 .history-section {
-    text-align: center;
-    background: #eee;
-    padding-bottom: 20px;
+	min-height: 100%;
+	text-align: center;
+	background: #eee;
+	padding-bottom: 20px;
 }
 
 .war-win  { color: green; }
@@ -22,9 +23,3 @@
 {
 	width: 100%;
 }
-
-
-
-/*	border-radius: 10px;
-
-	box-shadow: 0px 0px 10px 5px #dadada;*/
