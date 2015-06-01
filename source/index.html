@@ -198,6 +198,7 @@
 								<h4> Astro </h4>
 								Elder <br>
 								May 2015
+								<div class="filler hidden-sm hidden-md hidden-lg"> Space </div>
 							</div>
 						</div>
 
@@ -219,87 +220,87 @@
 						<div class="history-container col-xs-12">
 							<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 								<!-- War Entry -->
-								<div class="panel panel-default">
-									<div class="panel-heading" role="tab" id="headingOne">
+								<div class="panel panel-default" onclick="$('#collapseFour').collapse('toggle')">
+									<div class="panel-heading" role="tab" id="headingFour">
 										<h4 class="panel-title">
-											<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+											<div data-toggle="collapse" data-parent="#accordion" aria-expanded="true" aria-controls="collapseFour">
 												<div class="war-content">
 													<span class="pull-left"> 05.31.15 </span>
 													<span class="pull-right"> +150 Exp </span>
 												</div>
 												<div class="war-win"> 43-30 </div>
-											</a>
+											</div>
 										</h4>
 									</div>
-									<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+									<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
 										<div class="panel-body">
 											<img src="./img/war-history/w4-overview.png">
 										</div>
 									</div>
 								</div>
 								<!-- War Entry -->
-								<div class="panel panel-default">
-									<div class="panel-heading" role="tab" id="headingTwo">
+								<div class="panel panel-default" onclick="$('#collapseThree').collapse('toggle')">
+									<div class="panel-heading" role="tab" id="headingThree">
 										<h4 class="panel-title">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+											<div class="collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapseThree">
 												<span class="pull-left">05.27.15</span>
-												<span class="war-loss"> 20-23 </span>
 												<span class="pull-right"> + &nbsp;76 Exp </span>
-											</a>
+												<div class="war-loss"> 20-23 </div>
+											</div>
 										</h4>
 									</div>
-									<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 										<div class="panel-body">
 											<img src="./img/war-history/w3-overview.png">
 										</div>
 									</div>
 								</div>
 								<!-- War Entry -->
-								<div class="panel panel-default">
-									<div class="panel-heading" role="tab" id="headingThree">
+								<div class="panel panel-default" onclick="$('#collapseTwo').collapse('toggle')">
+									<div class="panel-heading" role="tab" id="headingTwo">
 										<h4 class="panel-title">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+											<div class="collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapseTwo">
 												<span class="pull-left">05.27.15</span>
-												<span class="war-loss"> 35-38 </span>
 												<span class="pull-right"> + &nbsp;95 Exp </span>
-											</a>
+												<div class="war-loss"> 35-38 </div>
+											</div>
 										</h4>
 									</div>
-									<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 										<div class="panel-body">
 											<img src="./img/war-history/w2-overview.png">
 										</div>
 									</div>
 								</div>
 								<!-- War Entry -->
-								<div class="panel panel-default">
-									<div class="panel-heading" role="tab" id="headingFour">
+								<div class="panel panel-default" onclick="$('#collapseOne').collapse('toggle')">
+									<div class="panel-heading" role="tab" id="headingOne">
 										<h4 class="panel-title">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+											<div class="collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapseOne">
 												<span class="pull-left">05.25.15</span>
-												<span class="war-win"> 26-23 </span>
 												<span class="pull-right"> +125 Exp </span>
-											</a>
+												<div class="war-win"> 26-23 </div>
+											</div>
 										</h4>
 									</div>
-									<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+									<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
 										<div class="panel-body">
 											<img src="./img/war-history/w1-overview.png">
 										</div>
 									</div>
 								</div>
 								<!-- War Entry -->
-								<!-- <div class="panel panel-default">
+								<!-- <div class="panel panel-default" onclick="$('#collapseNUMBER').collapse('toggle')">
 									<div class="panel-heading" role="tab" id="headingNUMBER">
 										<h4 class="panel-title">
-											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNUMBER" aria-expanded="false" aria-controls="collapseNUMBER">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="collapseNUMBER">
 												<span class="pull-left">mm.dd.yy</span>
-												<span class="war-win"> XX-XX </span>
 												<span class="pull-right"> +XXX Exp </span>
+												<div class="war-XXX"> XX-XX </div>
 											</a>
 										</h4>
 									</div>
-									<div id="collapseNUMBER" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNUMBER">
+									<div id="collapseNUMBER" class="panel-collapse collapse" role="tabpanel" onclick="$('#collapseNUMBER').collapse('toggle')" aria-labelledby="headingNUMBER">
 										<div class="panel-body">
 											<img src="./img/war-history/w1-overview.png">
 										</div>

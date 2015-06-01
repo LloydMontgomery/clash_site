@@ -4,14 +4,9 @@
     padding-bottom: 20px;
 }
 
-.war-entry
-{
-	width: 100%;
-}
-
 .war-win  { color: green; }
 .war-loss { color: red; }
-.war-tie  { color: grey; }
+.war-tie  { color: black; }
 
 .panel, .panel-heading
 {
