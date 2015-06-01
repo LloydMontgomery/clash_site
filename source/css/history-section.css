@@ -1,10 +1,26 @@
-.war-entry
+.history-container
 {
 
+}
+
+.left { float: left; }
+.right { float: right; }
+
+.center
+{
+	text-align: center;
+}
+
+.war-entry
+{
 	border-radius: 10px;
 
 	box-shadow: 0px 0px 10px 5px #dadada;
 }
+
+.war-win { color: green; }
+.war-loss { color: red; }
+.war-tie { color: grey;}
 
 .panel-body > img
 {
