@@ -1,6 +1,7 @@
-.history-container
-{
-
+.history-section {
+    text-align: center;
+    background: #eee;
+    padding-bottom: 20px;
 }
 
 .war-entry
@@ -11,6 +12,11 @@
 .war-win  { color: green; }
 .war-loss { color: red; }
 .war-tie  { color: grey; }
+
+.panel-default>.panel-heading
+{
+	background-color: white;
+}
 
 .panel-body > img
 {
