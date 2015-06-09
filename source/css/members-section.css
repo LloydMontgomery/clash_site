@@ -27,7 +27,17 @@
 	padding: 5px;
 }
 
+#members h4, #members h5
+{
+	height: 25px;
+}
+
 .filler
 {
 	color: white;
+}
+
+.smaller-text
+{
+	font-size: 90%;
 }
